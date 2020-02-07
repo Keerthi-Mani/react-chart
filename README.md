@@ -20,3 +20,13 @@ Then open localhost:3000 in a browser.
 ```
 npm install --save react-chartjs-2 chart.js
 ```
+
+## Usage
+
+Check example/src/components/\* for usage.
+
+```
+import { Doughnut } from 'react-chartjs-2';
+
+<Doughnut data={...} />
+```
