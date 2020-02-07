@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Bar } from "react-chartjs-2";
+import { Bar, Line, Pie } from "react-chartjs-2";
 
 class Chart extends Component {
   constructor(props) {
@@ -43,7 +43,29 @@ class Chart extends Component {
   render() {
     return (
       <div className="chart">
+        {/* Bar Chart */}
         <Bar
+          data={this.state.chartData}
+          width={100}
+          height={50}
+          options={{
+            title: {
+              //   display: true,
+              display: this.props.displayTitle,
+              text: "Largest Cities In Massachusetts",
+              fontSize: 30
+            },
+            legend: {
+              //   display: true,
+              // position: "right"
+              display: this.props.displayLegend,
+              position: this.props.legendPosition
+            }
+          }}
+        />
+
+        {/* Line Chart */}
+        <Line
           data={this.state.chartData}
           width={100}
           height={50}
