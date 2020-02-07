@@ -36,7 +36,22 @@ class Chart extends Component {
   render() {
     return (
       <div className="chart">
-        <Bar data={this.state.chartData} width={100} height={50} options={{}} />
+        <Bar
+          data={this.state.chartData}
+          width={100}
+          height={50}
+          options={{
+            title: {
+              display: true,
+              text: "Largest Cities In Massachusetts",
+              fontSize: 25
+            },
+            legend: {
+              display: true,
+              position: "right"
+            }
+          }}
+        />
       </div>
     );
   }
