@@ -11,7 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Welcome to React</h2>
       </div>
-      <Chart />
+      <Chart legendPosition="bottom" />
     </div>
   );
 }
