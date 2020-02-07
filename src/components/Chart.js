@@ -63,9 +63,33 @@ class Chart extends Component {
             }
           }}
         />
-
+        <br />
+        <br />
         {/* Line Chart */}
         <Line
+          data={this.state.chartData}
+          width={100}
+          height={50}
+          options={{
+            title: {
+              //   display: true,
+              display: this.props.displayTitle,
+              text: "Largest Cities In Massachusetts",
+              fontSize: 30
+            },
+            legend: {
+              //   display: true,
+              // position: "right"
+              display: this.props.displayLegend,
+              position: this.props.legendPosition
+            }
+          }}
+        />
+
+        <br />
+        <br />
+        {/* Pie Chart */}
+        <Pie
           data={this.state.chartData}
           width={100}
           height={50}
