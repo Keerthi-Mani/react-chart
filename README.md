@@ -14,3 +14,9 @@ npm start
 ```
 
 Then open localhost:3000 in a browser.
+
+## Installation via NPM
+
+```
+npm install --save react-chartjs-2 chart.js
+```
