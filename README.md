@@ -30,3 +30,25 @@ import { Doughnut } from 'react-chartjs-2';
 
 <Doughnut data={...} />
 ```
+
+### Custom size
+
+In order for Chart.js to customize the size you need not to set maintainAspectRatio to false, example:
+
+```
+<Bar
+data={data}
+width={100}
+height={50}
+options={{ title: {
+              display: true,
+              text: "Largest Cities In New York",
+              fontSize: 30
+            },
+            legend: {
+              display: true,
+              position: "right"
+            }
+          }}
+/>
+```
