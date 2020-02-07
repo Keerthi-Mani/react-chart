@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import Chart from "./components/Chart";
+
 import "./App.css";
 
 function App() {
