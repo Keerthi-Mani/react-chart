@@ -61,4 +61,4 @@ To build, watch and serve the examples (which will also watch the component sour
 
 ## License
 
-MIT Licensed Copyright (c) 2020 Keerthi Mani
+[MIT Licensed](https://github.com/jerairrest/react-chartjs-2/blob/master/LICENSE.md) Copyright (c) 2020 Keerthi Mani
