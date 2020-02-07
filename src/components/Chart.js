@@ -37,7 +37,8 @@ class Chart extends Component {
   static defaultProps = {
     displayTitle: true,
     displayLegend: true,
-    legendPosition: "right"
+    legendPosition: "right",
+    location: "City"
   };
 
   render() {
@@ -52,7 +53,7 @@ class Chart extends Component {
             title: {
               //   display: true,
               display: this.props.displayTitle,
-              text: "Largest Cities In Massachusetts",
+              text: "Largest Cities In" + this.props.location,
               fontSize: 30
             },
             legend: {
@@ -74,7 +75,7 @@ class Chart extends Component {
             title: {
               //   display: true,
               display: this.props.displayTitle,
-              text: "Largest Cities In Massachusetts",
+              text: "Largest Cities In" + this.props.location,
               fontSize: 30
             },
             legend: {
@@ -97,7 +98,7 @@ class Chart extends Component {
             title: {
               //   display: true,
               display: this.props.displayTitle,
-              text: "Largest Cities In Massachusetts",
+              text: "Largest Cities In" + this.props.location,
               fontSize: 30
             },
             legend: {
