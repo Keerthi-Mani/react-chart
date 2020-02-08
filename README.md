@@ -1,4 +1,4 @@
-# react-chartjs-2
+# React-Chart.JS
 
 React wrapper for Chart.js 2 Open for PRs and contributions!
 
