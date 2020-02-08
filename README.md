@@ -65,6 +65,24 @@ options={{ title: {
 />
 ```
 
+## Screenshots
+
+### Pie Chart
+
+<img width="906" alt="Screen Shot 2020-02-07 at 7 09 26 PM" src="https://user-images.githubusercontent.com/52920074/74074731-73587b00-49dd-11ea-864f-b5623080770b.png">
+
+### Bar Chart
+
+<img width="1132" alt="Screen Shot 2020-02-07 at 7 09 44 PM" src="https://user-images.githubusercontent.com/52920074/74074733-7489a800-49dd-11ea-9eb4-fc05c4b44c44.png">
+
+### Line Chart
+
+<img width="1135" alt="Screen Shot 2020-02-07 at 7 10 24 PM" src="https://user-images.githubusercontent.com/52920074/74074756-8bc89580-49dd-11ea-85cf-34996f547c7e.png">
+
+### Doughnut Chart
+
+<img width="976" alt="Screen Shot 2020-02-07 at 7 10 35 PM" src="https://user-images.githubusercontent.com/52920074/74074758-8f5c1c80-49dd-11ea-95c2-7c232751c72b.png">
+
 ## Development (src, lib and the build process)
 
 NOTE: The source code for the component is in src. A transpiled CommonJS version (generated with Babel) is available in lib for use with node.js, browserify and webpack. A UMD bundle is also built to dist, which can be included without the need for any build system.
