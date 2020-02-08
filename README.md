@@ -4,8 +4,6 @@ React wrapper for Chart.js 2 Open for PRs and contributions!
 
 ## Examples
 
-Live demo: jerairrest.github.io/react-chartjs-2
-
 To build the examples locally, run:
 
 ```
